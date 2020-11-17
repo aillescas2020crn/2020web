@@ -129,5 +129,5 @@ img{
 
 @media screen and (max-width:680px)
 {
-  div
+  div{}
 }
