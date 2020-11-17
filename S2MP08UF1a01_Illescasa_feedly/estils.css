@@ -126,3 +126,5 @@ img{
 .clara{
   background-color: #EEECEE;
 }
+
+@media screen and (max-width:680px)
