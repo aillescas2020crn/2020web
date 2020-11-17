@@ -47,6 +47,12 @@ p{
   margin: 0;
 }
 
+@media screen and (max-width:680px)
+{
+  img{
+    display: none;
+  }
+}
 #primera{
   height: 40px;
 }
@@ -109,7 +115,6 @@ p{
 
 img{
   padding: 25;
-  display: none;
 }
 
 .blanca{
@@ -127,5 +132,3 @@ img{
 .clara{
   background-color: #EEECEE;
 }
-
-@media screen and (max-width:680px)
