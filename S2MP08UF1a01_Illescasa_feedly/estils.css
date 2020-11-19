@@ -47,12 +47,6 @@ p{
   margin: 0;
 }
 
-@media screen and (max-width:680px)
-{
-  img{
-    display: none;
-  }
-}
 #primera{
   height: 40px;
 }
@@ -131,4 +125,12 @@ img{
 
 .clara{
   background-color: #EEECEE;
+}
+
+/*-----------disseny per mobil---------------*/
+@media screen and (max-width:960px)
+{
+  .verda{
+  background-color: olive;
+  }
 }
