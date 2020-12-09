@@ -1,0 +1,83 @@
+body{
+  background-color: #222;
+  font-family: Helvetica, Sans-serif;
+}
+ div{
+  position: relative;
+ }
+/*logotipo*/
+
+#menu{
+  background-color: black;
+  clear: both;
+}
+
+img{
+  margin:5px;
+  padding: 20px;
+  border:5px;
+}
+a{
+  text-decoration: none;
+  margin:0px;
+}
+li{
+  width: 50px;
+  display: inline;
+  color: #CCC;
+  line-height: 5px;
+}
+
+li:hover{
+  opacity: 50%;
+}
+
+a:active{
+color:#CCC;
+}
+
+a:hover{
+  color:#FFF;
+}
+
+
+.redes{
+  float:right;
+  margin:5px;
+}
+
+/*d.p.s*/
+#documentals{
+  width: 175;
+  display: inline-block;
+}
+#image{
+  border-radius: 5px;
+  margin: 20px;
+  display: inline-block;
+}
+
+
+#image:hover{
+  opacity: 50%;
+}
+
+
+h1{
+  font-size: 22px;
+  color:#FFF;
+}
+h3{
+  font-size: 14px;
+  color:#CCC;
+}
+h4{
+  font-size: 11px;
+  color:#CCC;
+}
+h5{
+  font-size: 11px;
+  color:#CCC;
+}
+
+@media screen(min-width:640px)
