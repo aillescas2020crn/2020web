@@ -1,0 +1,357 @@
+/*cabeza*/
+.cap{
+  width:400px;
+  height:520px;
+  background-color:#f3c18a;
+  border-radius: 40% 40% 60% 60%;
+  margin:5rem;
+}
+
+/*pelo*/
+.cabell{
+  height:130px;
+  background-color:transparent;
+}
+  .cabell::after{
+    content:"";
+    display: block;
+    width: 520px;
+    height: 750px;
+    border-radius: 40% 40% 0 0;
+    background-coor:black;
+    background:linear-gradient(black, #420000);
+    position:absolute;
+    left:0;
+    top:0;
+    transform:translateX(2rem) translateY(2rem);
+    z-index: -50;
+  }
+
+/*frente*/
+.front{
+  height: 30px;
+  background-color: transparent;
+}
+
+/*cejas*/
+.cejas{
+  height: 50px;
+  background-color:transaparent;
+}
+  .ceja1{
+    height: 130px;
+    width: 90px;
+    background-color: transparent;
+    transform:rotate(90deg) translateX(-40%) translateY(-34%);
+    border-radius:50px;
+    box-shadow: -8px 0px black;
+  }
+  .ceja2{
+    height: 130px;
+    width: 90px;
+    background-color: transparent;
+    transform:rotate(90deg) translateX(-180%) translateY(-205%);
+    border-radius:50px;
+    box-shadow: -8px 0px black;
+  }
+
+/*ojos*/
+.ulls{
+  height: 70px;
+  background-color:transaparent;
+}
+  .ojoi{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius:0 5rem;
+    position: relative;
+    margin:0 auto;
+    top:-45px;
+    left:-105px;
+    transform: rotate(135deg);
+    box-shadow: 1px 5px black;
+  }
+    .ojoi::after{
+      content: "";
+      display: block;
+      width: 35px;
+      height: 35px;
+      background-color:#955f20;
+      border:2px solid black;
+      border-radius: 50px;
+      margin: 0 auto;
+      position: relative;
+      top:15px;
+    }
+
+      .pupilai{
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50px;
+        position: absolute;
+        margin:0 auto;
+        top:270px;
+        left:173px;
+      }
+
+  .ojod{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius:0 5rem;
+    position: relative;
+    margin 0 auto;
+    left:-55px;
+    top:-110px;
+    float: right;
+    transform: rotate(135deg);
+    box-shadow: -5px -1px black;
+  }
+    .ojod::after{
+      content: "";
+      display: block;
+      width: 35px;
+      height: 35px;
+      border:2px solid black;
+      background-color: #955f20;
+      border-radius: 50px;
+      margin: 0 auto;
+      position: relative;
+      top:15px;
+    }
+      .pupilad{
+        width: 20px;
+        height: 20px;
+        background-color:black;
+        border-radius: 50px;
+        position: absolute;
+        margin:0 auto;
+        top:275px;
+        left:388px;
+      }
+  /*OREJAS*/
+    .orejai{
+      height: 100px;
+      width: 40px;
+      background-color: #f3c18a;
+      border-radius: 40% 0 0 40% ;
+      transform: translateX(-75%) translateY(-65%);
+
+    }
+
+    .orejad{
+      height: 100px;
+      width: 40px;
+      background-color: #f3c18a;
+      border-radius: 0 40% 40% 0 ;
+      transform: translateX(980%) translateY(-165%);
+
+    }
+
+    .piercing{
+      height: 10px;
+      width:10px;
+      border-radius:50px;
+      background-color:grey;
+      transform: translateX(4150%) translateY(-2500%);
+    }
+/*NARIZ*/
+.nas{
+  height:50px;
+  background-color:transaparent;
+}
+  .punta{
+    height: 50px;
+    width: 50px;
+    background-color: #f3c18a;
+    border-radius: 50px;
+    position:relative;
+    left:130px;
+    transform: translate(100%);
+    box-shadow: -0.5px 4px #e5b47e;
+  }
+
+  .asai{
+    height: 40px;
+    width: 40px;
+    background-color:#f3c18a;
+    border-radius: 50px;
+    position: relative;
+    left:120px;
+    top:-38px;
+    transform: translate(100%);
+    box-shadow: -5px 1px #e5b47e;
+  }
+  .asad{
+    height: 40px;
+    width: 40px;
+    background-color:#f3c18a;
+    border-radius: 50px;
+    position: relative;
+    left:170px;
+    top:-78px;
+    transform: translate(100%);
+    box-shadow: 5px 1px #e5b47e;
+  }
+
+/*BOCA*/
+.boca{
+  height: 100px;
+  background-color:transaparent;
+}
+  .labios{
+    height: 70px;
+    width: 130px;
+    background-color:#e5c6c3;
+    border-radius:0 0 50px 50px;
+    margin:0 auto;
+    position:relative;
+    top:50px;
+  }
+
+  .dientes{
+    height: 50px;
+    width: 110px;
+    background-color:white;
+    border-radius:0 0 50px 50px;
+    margin:0 auto;
+    position:relative;
+    top:-10px;
+  }
+
+/*MASK*/
+.mascarilla{
+  position:relative;
+  width: 300px;
+  height: 305px;
+  background-color: #1f1f1f;
+  border-radius: 100px 100px 50px;
+  transform: rotate(-135deg);
+  transition:0.2s;
+  margin:-200px 50px;
+}
+  .mascarilla:hover{
+    opacity:0.5%;
+  }
+
+  .liga1{
+    height: 10px;
+    width: 130px;
+    background-color:#1f1f1f;
+    border-radius: 5px;
+    position:absolute;
+    margin:0 auto;
+    top:125px;
+    left:280px;
+  }
+
+  .liga2{
+    height: 10px;
+    width: 50px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    position:absolute;
+    margin:0 auto;
+    top:55px;
+    left:285px;
+  }
+
+  .liga3{
+    height: 10px;
+    width: 130px;
+    background-color:#1f1f1f;
+    border-radius: 5px;
+    position:absolute;
+    margin:0 auto;
+    top:350px;
+    right:105px;
+    transform: rotate(95deg);
+  }
+
+  .liga4{
+    height: 10px;
+    width: 50px;
+    background-color:#1f1f1f;
+    border-radius: 5px;
+    position:absolute;
+    margin:0 auto;
+    top:305px;
+    left:30px;
+    transform: rotate(95deg);
+  }
+
+/*GAFAS*/
+
+  .palo1{
+    height: 5px;
+    width: 100px;
+    background-color: grey;
+    margin:0 auto;
+    position: relative;
+    top:-170px;
+  }
+  .palo{
+    height: 15px;
+    width: 50px;
+    background-color: grey;
+    margin:0 auto;
+    position: relative;
+    top:-150px;
+  }
+
+  .lente1{
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background-color:rgba(255,255,255, .1);
+      transform: translateX(10px) translateY(-130%);
+      border:10px solid #b0cdf8;
+      border-radius: 80px 100px 100px 100px;
+    }
+
+    .lente1::before{
+      content: "";
+      display: block;
+      width: 20px;
+      height: px;
+      border-right: 30px solid transparent;
+      border-left: 30px solid transparent;
+      border-bottom: 20px solid #b0cdf8;
+      transform: rotate(290deg);
+      margin: 0 auto;
+      position: relative;
+      top:25px;
+      left: -80px;
+    }
+
+  .lente2{
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background-color:rgba(255,255,255, .1);
+      transform: translateX(220px) translateY(-130%);
+      border:10px solid #b0cdf8;
+      border-radius: 100px 80px 100px 100px;
+    }
+    .lente2::before{
+      content: "";
+      display: block;
+      width: 20px;
+      height: px;
+      border-right: 30px solid transparent;
+      border-left: 30px solid transparent;
+      border-bottom: 20px solid #b0cdf8;
+      transform: rotate(70deg);
+      margin: 0 auto;
+      position: relative;
+      top:25px;
+      left: 80px;
+    }
+
+/*BARBILLA*/
+.barbeta{
+    height:90px;
+    background-color:transaparent;
+  }
