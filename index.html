@@ -14,15 +14,30 @@
     <link rel="icon" sizes="512x512" href="img/icon.png">
     <link rel="apple-touch-icon" href="img/icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
     <style media="screen">
+
+    @@fontface {
+      @font-face{
+        font-family:Robota;
+        src: url('font/Robota_bold.tff-webfont.woff2') format('woff2'),
+             url('font/Robota_bold.tff-webfont.woff2') format('woff2'),
+             url('font/Robota_bold.tff-webfont.woff2') format('woff2'),
+             url('font/Robota_bold.tff-webfont.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+    }
       body{
         font-family:helvetica;
         text-align: center;
         line-height:0.5rem; /*interlineado*/
         font-size: 1rem;
       }
-
+      h1{
+        font-family: Robota_bold;
+      }
       a{
       display:block;
       float:left;
