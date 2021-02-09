@@ -18,25 +18,32 @@
 
     <style media="screen">
 
-    @@fontface {
-      @font-face{
-        font-family:Robota;
-        src: url('font/Robota_bold.tff-webfont.woff2') format('woff2'),
-             url('font/Robota_bold.tff-webfont.woff2') format('woff2'),
-             url('font/Robota_bold.tff-webfont.woff2') format('woff2'),
-             url('font/Robota_bold.tff-webfont.woff2') format('woff2');
+    @font-face {
+        font-family: 'Big Caslon';
+        src: url('BigCaslon-Medium.woff2') format('woff2'),
+            url('BigCaslon-Medium.woff') format('woff');
         font-weight: normal;
         font-style: normal;
-      }
+        font-display: swap;
     }
+
+    @font-face {
+        font-family: 'Georgia-Bold';
+        src: url('Georgia-Bold.woff2') format('woff2'),
+            url('Georgia-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
       body{
-        font-family:helvetica;
+        font-family:Georgia-Bold;
         text-align: center;
         line-height:0.5rem; /*interlineado*/
         font-size: 1rem;
       }
       h1{
-        font-family: Robota_bold;
+        font-family:Big Caslon;
       }
       a{
       display:block;
