@@ -6,3 +6,13 @@
     font-style: normal;
     font-display: swap;
 }
+
+
+@font-face{
+  font-family:Formula Condensed;
+  src:url(/_nuxt/fonts/ffe2cc0.woff2), format("woff2"),
+      url(/_nuxt/fonts/74575a0.woff) format("woff"),
+      url(/_nuxt/fonts/4661db1.ttf) format("truetype");
+  font-weight:700;
+  font-style:normal;
+  }
